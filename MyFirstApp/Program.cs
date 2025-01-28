@@ -18,7 +18,8 @@ internal class Program
 
      // EmployeeTest.MethodPracticeMain();
 
-     Customer.CustomerMain();
+     //   Customer.CustomerMain();
+        FlightBookingSystem.MainProgram();
 
 
       
