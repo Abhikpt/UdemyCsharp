@@ -1,0 +1,15 @@
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\BasicProjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\BasicProjects.AssemblyInfoInputs.cache
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\BasicProjects.AssemblyInfo.cs
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\BasicProjects.csproj.CoreCompileInputs.cache
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\BasicProjects.sourcelink.json
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\bin\Debug\net8.0\BasicProjects.exe
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\bin\Debug\net8.0\BasicProjects.deps.json
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\bin\Debug\net8.0\BasicProjects.runtimeconfig.json
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\bin\Debug\net8.0\BasicProjects.dll
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\bin\Debug\net8.0\BasicProjects.pdb
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\BasicProjects.dll
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\refint\BasicProjects.dll
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\BasicProjects.pdb
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\BasicProjects.genruntimeconfig.cache
+C:\ProjectWorkspace\Programming\UdemyCsharp\BasicProjects\obj\Debug\net8.0\ref\BasicProjects.dll
