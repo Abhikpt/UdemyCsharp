@@ -16,3 +16,4 @@ C:\ProjectWorkspace\Programming\UdemyCsharp\MyFirstApp\bin\Debug\net8.0\MyClassL
 C:\ProjectWorkspace\Programming\UdemyCsharp\MyFirstApp\bin\Debug\net8.0\MyClassLibrary.pdb
 C:\ProjectWorkspace\Programming\UdemyCsharp\MyFirstApp\obj\Debug\net8.0\MyFirstApp.csproj.AssemblyReference.cache
 C:\ProjectWorkspace\Programming\UdemyCsharp\MyFirstApp\obj\Debug\net8.0\MyFirstApp.csproj.Up2Date
+C:\ProjectWorkspace\Programming\UdemyCsharp\MyFirstApp\obj\Debug\net8.0\MyFirstApp.sourcelink.json

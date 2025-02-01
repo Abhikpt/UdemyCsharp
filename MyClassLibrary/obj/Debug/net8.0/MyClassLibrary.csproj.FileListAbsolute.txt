@@ -9,3 +9,4 @@ C:\ProjectWorkspace\Programming\UdemyCsharp\MyClassLibrary\obj\Debug\net8.0\MyCl
 C:\ProjectWorkspace\Programming\UdemyCsharp\MyClassLibrary\obj\Debug\net8.0\refint\MyClassLibrary.dll
 C:\ProjectWorkspace\Programming\UdemyCsharp\MyClassLibrary\obj\Debug\net8.0\MyClassLibrary.pdb
 C:\ProjectWorkspace\Programming\UdemyCsharp\MyClassLibrary\obj\Debug\net8.0\ref\MyClassLibrary.dll
+C:\ProjectWorkspace\Programming\UdemyCsharp\MyClassLibrary\obj\Debug\net8.0\MyClassLibrary.sourcelink.json
