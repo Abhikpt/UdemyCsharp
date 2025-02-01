@@ -24,13 +24,13 @@ public class Quiz
             Console.WriteLine($" {i+1} - {questions.Options[i]}");
         }
 
-        // validate the ans
-        if(GetUserChoice() == questions.CorrectOptionIndex)
-        {
-            Console.WriteLine("  Correct option");
-        }
-        else 
-        Console.WriteLine("   Wrong option");
+        // commented as using in start quiz // validate the ans
+        // if(GetUserChoice() == questions.CorrectOptionIndex)
+        // {
+        //     Console.WriteLine("  Correct option");
+        // }
+        // else 
+        // Console.WriteLine("   Wrong option");
     }
 
 
@@ -50,20 +50,59 @@ public class Quiz
 
     }
 
+    public void StartQuiz()
+    {
+        Console.WriteLine("Welcome to the Quiz.");
+        int questionNumber = 1;
+
+        foreach(var question in questions)
+        {
+            Console.WriteLine($"Question: {questionNumber++}");
+            DisplayQuestions(question);
+            int choice = GetUserChoice();
+
+            if( question.IsCorrectOption(choice))
+            {
+                Console.WriteLine("Correct options");
+            }
+            else
+            Console.WriteLine($"Incorrect. Correct answer is {question.Options[question.CorrectOptionIndex]}");
+            
+        }
+
+
+
+
+    }
+
 
     public static void QuizMainProgram()
     {
             Questions[] questions = new Questions[]
             {
                new Questions(
-                    "What the capital of Germany?",
-                    new string[] {"Paris", "Berlin", "London", "Madrid"},
-                    1
-                )
+                    "What the capital of Germany?",      //your questions
+                    new string[] {"Paris", "Berlin", "London", "Madrid"},   //your options 0-3
+                    1                // you correct answer Berlin
+                ),
+
+                new Questions(
+                    "which one  is not a principle of Object-Oriented Programming?",
+                    new string[] {"Encapsulation", "Inheritance", "Compilation","Polymorphism"},
+                    2
+                ),
+                  new Questions(
+                    "What is 3+2?",
+                    new string[] {"2", "3", "5","4"},
+                    2
+                ),
+
+            
             };
 
             Quiz myQuiz = new Quiz(questions);
-            myQuiz.DisplayQuestions(questions[0]);
+            myQuiz.StartQuiz();
+           // using optimize method now// myQuiz.DisplayQuestions(questions[0]);
             Console.ReadLine();
 
     }
