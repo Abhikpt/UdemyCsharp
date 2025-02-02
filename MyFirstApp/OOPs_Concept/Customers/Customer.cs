@@ -50,6 +50,8 @@ public Customer()
         
     }
 
+    
+
     // methods 
     public void SetDetails(string name, string address,string contact)
     {

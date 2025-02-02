@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyFirstApp\\MyFirstApp.csproj",
+      "projectUniqueName": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyFirstApp\\MyFirstApp.csproj",
       "projectName": "MyFirstApp",
-      "projectPath": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyFirstApp\\MyFirstApp.csproj",
+      "projectPath": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyFirstApp\\MyFirstApp.csproj",
       "packagesPath": "C:\\Users\\ASing\\.nuget\\packages\\",
-      "outputPath": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyFirstApp\\obj\\",
+      "outputPath": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyFirstApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASing\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj": {
-              "projectPath": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj"
+            "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj": {
+              "projectPath": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj"
             }
           }
         }

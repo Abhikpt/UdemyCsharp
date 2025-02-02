@@ -1,8 +1,6 @@
 
-using System.Security.Cryptography;
-
 public class EmployeeTest{
-    string EmployeeName{get;set;}
+    string? EmployeeName{get;set;}
     int EmployeeAge {get;set;}
     public void MethodWithOptionalParameter(string nam = "DefaultN", int age = 99)
     {   

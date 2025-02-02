@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj": {}
+    "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj": {}
   },
   "projects": {
-    "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj": {
+    "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj",
+        "projectUniqueName": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj",
         "projectName": "MyClassLibrary",
-        "projectPath": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj",
+        "projectPath": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\MyClassLibrary.csproj",
         "packagesPath": "C:\\Users\\ASing\\.nuget\\packages\\",
-        "outputPath": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\obj\\",
+        "outputPath": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASing\\AppData\\Roaming\\NuGet\\NuGet.Config"

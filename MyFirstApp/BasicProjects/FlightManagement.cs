@@ -10,9 +10,9 @@ public class FlightBookingSystem
 
     public class Flight{
 
-            public string FlightNumber { get; set; }
-            public string From { get; set; }
-            public string To { get; set; }
+            public string? FlightNumber { get; set; }
+            public string? From { get; set; }
+            public string? To { get; set; }
             public int TotalSeats { get; set; }
             public int BookedSeats { get; set; }
 
@@ -26,10 +26,10 @@ public class FlightBookingSystem
     // Booking Class
     class Booking
     {
-        public string PassengerName { get; set; }
-        public string FlightNumber { get; set; }
-        public string From { get; set; }
-        public string To { get; set; }
+        public string? PassengerName { get; set; }
+        public string? FlightNumber { get; set; }
+        public string? From { get; set; }
+        public string? To { get; set; }
         public DateTime BookingDate { get; set; }
     }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OznEsPvKTxCCqQJZlN3T3t8xICNlXJuJrQVZllJSuiQ0aSSN9tUDOdCRkz4DklFO8WkKE4NPHiblT3CZPDI0wQ==",
+  "dgSpecHash": "rKrGyiJAbU506HYJJFP0OXsGFNVK5vkkGiiqSOG6BrHmkrR33xwLGP455vQWDBrasnCHyAUDvb64m15s4F5x3g==",
   "success": true,
-  "projectFilePath": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyFirstApp\\MyFirstApp.csproj",
+  "projectFilePath": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\MyFirstApp\\MyFirstApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

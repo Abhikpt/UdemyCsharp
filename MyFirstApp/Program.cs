@@ -1,4 +1,6 @@
-﻿using CSHARPCONCEPTS.TrickyQuestions;
+﻿using System.Drawing;
+using BasicProjects.Collection;
+using CSHARPCONCEPTS.TrickyQuestions;
 using OOPs_Concept;
 using OOPs_Concept.Customer1;
 
@@ -19,7 +21,11 @@ internal class Program
      // EmployeeTest.MethodPracticeMain();
 
      //   Customer.CustomerMain();
-        FlightBookingSystem.MainProgram();
+      //  FlightBookingSystem.MainProgram();
+
+     //  Rectangle.RectangleMain();
+
+     WorkingWithLists.ListMainMethod();
 
 
       

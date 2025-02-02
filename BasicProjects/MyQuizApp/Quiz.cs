@@ -1,12 +1,16 @@
 
+using System.Drawing;
+
 namespace MyQuizApp;
 //display quesion on screen
 public class Quiz
 {
     private Questions[] questions;
+    private int _score ;
     public Quiz(Questions[] questions)
     {
-       this.questions = questions;        
+       this.questions = questions; 
+       _score= 0;      
     }
 
 
@@ -37,7 +41,7 @@ public class Quiz
     public int GetUserChoice()
     {
         Console.Write("Enter your Answer/choice: ");
-        string input = Console.ReadLine();
+        string? input = Console.ReadLine();
         int choice = 0;
 
         while(!int.TryParse(input, out choice) || choice <1 || choice > 4)
@@ -64,12 +68,39 @@ public class Quiz
             if( question.IsCorrectOption(choice))
             {
                 Console.WriteLine("Correct options");
+                _score++;
             }
             else
             Console.WriteLine($"Incorrect. Correct answer is {question.Options[question.CorrectOptionIndex]}");
             
         }
+        DisplayResults();
 
+    }
+
+    private void DisplayResults()
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("================================================");
+        Console.WriteLine("||                    Result                  ||");
+        Console.WriteLine("================================================");
+         Console.ResetColor();
+        Console.WriteLine($"You scored: {_score} out of {questions.Length}");
+
+        double percentage = (double) (_score/questions.Length );
+
+        if(percentage >= 0.8)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"Exceleant!!, you achieve {percentage}");
+        }
+
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"keep practicing!!, you achieve {percentage}");
+        }
+        Console.ResetColor();
 
 
 
