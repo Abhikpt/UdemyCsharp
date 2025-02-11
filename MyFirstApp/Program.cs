@@ -1,6 +1,9 @@
 ﻿using System.Drawing;
 using BasicProjects.Collection;
 using CSHARPCONCEPTS.TrickyQuestions;
+using MyFirstApp.BasicProjects;
+using MyFirstApp.Collections;
+using MyFirstApp.OOPs_Concept;
 using OOPs_Concept;
 using OOPs_Concept.Customer1;
 
@@ -25,7 +28,21 @@ internal class Program
 
      //  Rectangle.RectangleMain();
 
-     WorkingWithLists.ListMainMethod();
+     // WorkingWithLists.ListMainMethod();
+     // ArrayListPractice.CreateAndDisplayArrayList();
+
+    // HasstablePractice.HastableMainProgram();
+
+    // NullablePractice.NullablePracticeMain();
+
+   //  DictionaryPractice.DictionaryMainMethod();
+
+   // TryCatcheExecptionPractice.TryCatchMainprogram();
+
+
+    // ------------trickey questions----------------
+
+    FindSecondLargestKey.FindSecondLargestKeyMain();
 
 
       

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\BasicProjects\\BasicProjects.csproj",
+      "projectUniqueName": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\BasicProjects\\BasicProjects.csproj",
       "projectName": "BasicProjects",
-      "projectPath": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\BasicProjects\\BasicProjects.csproj",
+      "projectPath": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\BasicProjects\\BasicProjects.csproj",
       "packagesPath": "C:\\Users\\ASing\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjectWorkspace\\Programming\\UdemyCsharp\\BasicProjects\\obj\\",
+      "outputPath": "c:\\ProjectWorkspace\\Programming\\UdemyCsharp\\BasicProjects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASing\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,6 +26,7 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
