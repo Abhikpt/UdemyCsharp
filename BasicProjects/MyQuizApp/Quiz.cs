@@ -2,7 +2,7 @@
 using System.Drawing;
 
 namespace MyQuizApp;
-//display quesion on screen
+//display question on screen
 public class Quiz
 {
     private Questions[] questions;
@@ -10,7 +10,7 @@ public class Quiz
     public Quiz(Questions[] questions)
     {
        this.questions = questions; 
-       _score= 0;      
+       _score = 0;      
     }
 
 

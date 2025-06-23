@@ -16,7 +16,10 @@
       },
       "MyClassLibrary/1.0.0": {
         "runtime": {
-          "MyClassLibrary.dll": {}
+          "MyClassLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
